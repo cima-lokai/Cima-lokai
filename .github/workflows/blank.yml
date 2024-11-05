@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيما لوكاي - أفلام ومسلسلات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- رأس الموقع -->
+    <header>
+        <div class="logo">
+            <h1>سيما لوكاي</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#new-movies">أفلام جديدة</a></li>
+                <li><a href="#featured-series">مسلسلات مميزة</a></li>
+                <li><a href="#about">عن الموقع</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم الأفلام الجديدة -->
+    <section id="new-movies" class="section">
+        <h2>أفلام جديدة</h2>
+        <div class="movie-container">
+            <div class="movie">
+                <img src="movie1.jpg" alt="فيلم 1">
+                <h3>فيلم 1</h3>
+                <p>وصف الفيلم 1</p>
+            </div>
+            <div class="movie">
+                <img src="movie2.jpg" alt="فيلم 2">
+                <h3>فيلم 2</h3>
+                <p>وصف الفيلم 2</p>
+            </div>
+            <div class="movie">
+                <img src="movie3.jpg" alt="فيلم 3">
+                <h3>فيلم 3</h3>
+                <p>وصف الفيلم 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المسلسلات المميزة -->
+    <section id="featured-series" class="section">
+        <h2>مسلسلات مميزة</h2>
+        <div class="series-container">
+            <div class="series">
+                <img src="series1.jpg" alt="مسلسل 1">
+                <h3>مسلسل 1</h3>
+                <p>وصف المسلسل 1</p>
+            </div>
+            <div class="series">
+                <img src="series2.jpg" alt="مسلسل 2">
+                <h3>مسلسل 2</h3>
+                <p>وصف المسلسل 2</p>
+            </div>
+            <div class="series">
+                <img src="series3.jpg" alt="مسلسل 3">
+                <h3>مسلسل 3</h3>
+                <p>وصف المسلسل 3</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم "عن الموقع" -->
+    <section id="about" class="section">
+        <h2>عن موقع سيما لوكاي</h2>
+        <p>موقع سيما لوكاي هو مكانك الأمثل لمتابعة أحدث الأفلام والمسلسلات مع تصميم جذاب وسهل الاستخدام.</p>
+    </section>
+
+    <!-- تذييل الموقع -->
+    <footer>
+        <p>&copy; 2024 سيما لوكاي. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
